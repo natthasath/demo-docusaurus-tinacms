@@ -26,11 +26,6 @@ npm install @tinacms/cli -g
 tinacms audit
 ```
 
-### 🔑 Configuration
-
-- [New OAuth App in Github](https://github.com/settings/developers)
-- [Install OAuth Provider in Netlify](https://app.netlify.com/)
-
 ### 🏆 Run
 
 - [http://localhost:3000/](http://localhost:3000/)

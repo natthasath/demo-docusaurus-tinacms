@@ -1,67 +1,42 @@
-[![Tinasaurus Demo](https://res.cloudinary.com/forestry-demo/image/upload/v1677522334/tina-io/blog/tinacms-docusaurus-markdown-editing.gif "Tinasaurus Overview Video")](https://www.youtube.com/watch?v=2bHBwM54UB8)
+# 🎉 DEMO Docusaurus TinaCMS
 
-## Quickstart With Tina
+TinaCMS is a user-friendly, open-source headless content management system (CMS) that empowers developers and non-tech users to collaboratively edit websites. It integrates seamlessly with various frameworks, making content creation and maintenance a breeze.
 
-```
-$ npm install && npm run tina
-```
+![version](https://img.shields.io/badge/version-1.0-blue)
+![rating](https://img.shields.io/badge/rating-★★★★★-yellow)
+![uptime](https://img.shields.io/badge/uptime-100%25-brightgreen)
 
-Or
+### 🚀 Setup
 
-```
-$ yarn && yarn tina
-```
-
-This will install dependencies and open the website in your browser.
-
-Visit the CMS at [http://localhost:3000/admin](http://localhost:3000/admin) to start editing.
-
-## About
-
-This website is built using [Docusaurus 2](https://docusaurus.io/) and [TinaCMS](https://tina.io/).
-
-[Watch an overview of this project on YouTube](https://www.youtube.com/watch?v=2bHBwM54UB8).
-
-### Installation
+- Create Start Project
 
 ```
-$ npm install
+npx create-tina-app@latest
 ```
 
-Or
+- Install TinaCMS CLI
 
 ```
-$ yarn
+npm install @tinacms/cli -g
 ```
 
-### Local Development
+- TinaCMS Audit
 
 ```
-$ npm run tina
+tinacms audit
 ```
 
-Or
+### 🔑 Configuration
+
+- [New OAuth App in Github](https://github.com/settings/developers)
+- [Install OAuth Provider in Netlify](https://app.netlify.com/)
+
+### 🏆 Run
+
+- [http://localhost:3000/](http://localhost:3000/)
+- [https://localhost:3000/](https://localhost:3000/)
 
 ```
-$ yarn tina
+npm run build
+npm run serve
 ```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server. Go to the [Tina Admin](http://localhost:3000/admin) to start editing.
-
-### Build
-
-```
-$ npm run build
-```
-
-Or
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-To deploy to production and support editing on your live website (at **your-domain.com/admin**), you can follow the steps from [Tina's docs](https://tina.io/docs/forestry/migrate/#deploy-tina-to-your-site).
